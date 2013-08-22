@@ -41,3 +41,5 @@ bundle exec sidekiq
 # Heroku app:
 
 http://gingerphotoblog2.herokuapp.com/
+
+BTW, in order for it to work in Heroku, I would need to turn on the background worker task. I had to turn it off because it apparently charges 5 cents an hour. Let me know if you want to take a look and I'll turn it on for you for awhile. The command to turn it on is: heroku ps:scale worker=1 (in case I forget and need to refer to this)
