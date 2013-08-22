@@ -8,7 +8,9 @@
 4) Update your config/application.yml file with these three items related to your S3 bucket--with your won access key, secret access key, and bucket name--similar to the following
 
 AWS_ACCESS_KEY_ID: "12341234123431234"
+
 AWS_SECRET_ACCESS_KEY: "abcd+I/abcd1234abcd1234"
+
 AWS_S3_BUCKET: "railscast-image-upload-example"
 
 5) Start up the app "rails s"
